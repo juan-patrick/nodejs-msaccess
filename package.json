@@ -1,0 +1,20 @@
+{
+  "name": "ace",
+  "version": "1.0.0",
+  "description": "Access connection test",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",    
+    "dev": "nodemon -r dotenv/config src/index.js --ignore tests"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "node-adodb": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
